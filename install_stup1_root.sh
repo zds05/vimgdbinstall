@@ -1,5 +1,6 @@
 mkdir ~/.vim;
 cp -rf ./vimrc ~/.vim/;
+tar zxvf vimplugin.tar.gz;
 cp -R -rf ./vimplugin/bundle ~/.vim;
 
 mkdir -p /opt/share/vim/vimfiles;
