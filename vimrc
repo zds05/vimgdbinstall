@@ -18,12 +18,12 @@ Plugin 'majutsushi/tagbar'                  " 文件的结构 函数 与taglist.
 Plugin 'nathanaelkane/vim-indent-guides'    " 缩进关联显示
 Plugin 'vim-scripts/winmanager'             " 窗口管理
 Plugin 'SirVer/ultisnips'                   " 代码补全  
-"Plugin 'Valloric/YouCompleteMe'            " 代码补全 与7.4的vim不兼容
+"Plugin 'Valloric/YouCompleteMe'             " 代码补全 与7.4的vim不兼容
 Plugin 'odlygeek/tabular'                   " 按照{ : =等字符格式化代码
 Plugin 'tomlion/vim-solidity'               " Vim Solidity Vim 编辑器的插件，提供语法高亮。
 Plugin 'vim-syntastic/syntastic'            " Vim Syntastic Vim 编辑器的插件，提供编译检查。
 Plugin 'kien/ctrlp.vim'                     " 文件查找
-"Plugin 'vim-syntastic/syntastic'           " 静态检查 语法和格式检查
+"Plugin 'vim-syntastic/syntastic'            " 静态检查 语法和格式检查
 Plugin 'scrooloose/nerdcommenter'           " 批量注释
 "Plugin ''" 前端 html 自动补全插件
 
@@ -58,8 +58,8 @@ set fdm=indent " 按照缩进折叠
 
 
 " Fill space between windows
-set fillchars=stl:\ ,stlnc:\ ,vert:\
-
+"set fillchars=stl:\ ,stlnc:\ ,vert:\
+set fillchars=vert:\ ,stl:\ ,stlnc:\
 
 " Turn off annoyingerror sound
 set noerrorbells
